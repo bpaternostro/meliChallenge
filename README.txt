@@ -1,5 +1,8 @@
 README:
  - El proceso se ejecuta desde el “main.py” y va a solicitar un ingreso de caracteres separados por "," (sin espacios en blanco).
+ - Puede que a la hora de ejecutar el proceso pida la instalación de las siguientes dependencias:
+ 	-tableauhyperapi
+	-requests
  - Como la API de Meli únicamente devuelve 50 resultados por "request". El proceso arma un “array” con el ingreso de al menos 3 productos. Luego ejecuta una solicitud por cada producto ingresado.
  - Como no sabía en qué ambiente iba a ser ejecutado el script. Generé una carpeta "output" dentro del proyecto para alojar el archivo ".hyper" resultante.
  - En el table definition:
